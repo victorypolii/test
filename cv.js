@@ -7,7 +7,7 @@ var select = function(s) {
       var number = Math.floor(Math.random()*(max-min+1)+min);
     
       if ( number !== 0 ){
-        return number;
+        return number; 
       }else {
         return 0.5;
       }

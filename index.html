@@ -1,145 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>katrin kembuan</title>
-    <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="resume-wrapper">
-        <section class="profile section-padding">
-          <div class="container">
-          <div class="picture-resume-wrapper">
-              <div class="picture-resume">
-              <span><img src="kath.png" alt="" /></span>
-              <svg version="1.1" viewBox="0 0 350 350">
-        
-        <defs>
-          <filter id="goo">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
-            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
-          </filter>
-        </defs>
-        
-        
-      <g filter="url(#goo)" >  
-        
-        <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
-        
-        <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
-        <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
-      
-      </g>  
-      </svg>
-            </div>
-              <div class="clearfix"></div>
-      </div>
-            <div class="name-wrapper">
-              <h1>katrin frisilia <br/>Kembuan</h1>
-            </div>
-            <div class="clearfix"></div>
-            <div class="contact-info clearfix">
-              <ul class="list-titles">
-              <li>Call</li>
-              <li>Mail</li>
-              <li>Home</li>
-              </ul>
-              <ul class="list-content ">
-                <li>+62 85396624053</li> 
-                <li>katrinfrisilia@gmail.com</li> 
-                <li>Manado, Indonesia</li> 
-              </ul>
-            </div>
-            <div class="contact-presentation"> 
-              <p><span class="bold">"Never regret a day in your life;</span> good days give happiness, bad days give experiences, worst day give lessons, and best day give memories."</p>
-              <p> "It's an immpossibility to be perfect but it's possible to do the best."</p>
-            </div>
-            <div class="contact-social clearfix">
-              <ul class="list-titles">
-              <li>FACEBOOK</li>
-              <li>Instagram</li>
-              </ul>
-              <ul class="list-content">
-              <li><a href="https://web.facebook.com/frisilia.kembuan/">@Katrinekembuan</a></li>
-              <li><a href="https://www.instagram.com/kathh.fk/">@kath.fk</a></li> 
-              </ul>
-            </div>
-          </div>
-        </section>
-        
-        <section class="experience section-padding">
-          <div class="container">
-          <h3 class="experience-title">EDUCATION</h3>
-            
-            <div class="experience-wrapper">
-              <div class="company-wrapper clearfix">
-              <div class="experience-title">SENIOR HIGH SCHOOL</div> 
-                <div class="time">JUN 2015 - 2018</div> 
-              </div>
-              
-              <div class="job-wrapper clearfix">
-                <div class="experience-title">SEKOLAH LANJUTAN ADVENT TOMPASO </div> 
-                <div class="company-description">
-                  <p> WHEN I WAS IN HIGH SCHOOL I WAS A SCIENCE STUDENT.</p>  
+    <!-- ######### LOADING SCREEN ######### -->
+    <div id="welcome" class="welcome">
+        <div class="welcome_loading">
+            Please wait . . .
+            <span></span>
+        </div>
+    </div>
+    <!-- ######### CONTENT OF GRETTING -->
+    <div class="content">
+        <div id="popOne">
+            <p>Birthdays are like a new years, and my wish for you is a wonderful year filled with happiness in your life. Maybe many problems have happened and will happen, but be grateful and complain less.</p>
+                <div class="tombol-terimakasih" onclick="btnOne()">
+                    Thankuu
                 </div>
-              </div>
-              
-              <div class="company-wrapper clearfix">
-              <div class="experience-title">UNIVERSITY</div> 
-                <div class="time">AUG 2019 - NOW</div> 
-              </div>
-              
-              <div class="job-wrapper clearfix">
-                <div class="experience-title">UNIVERSITAS KLABAT</div> 
-                <div class="company-description">
-                  <p>I ENTERED THE FACULTY OF COMPUTER SCIENCE, DEPARTING INFORMATION SYSTEMS.</p> 
-                </div>
-              </div>
-              
-              <div class="section-wrapper clearfix">
-                  <h3 class="section-title">Awards</h3>  
-                  <ul>
-                    <li>Olimpiade Sains Prov Manado</li>
-                    <li>Debat Sains Kabupaten</li>
-                    <li>Lomba Cerdas Cermat</li>
-                </ul>
-                </div>
-            
-            <div class="section-wrapper clearfix">
-              <h3 class="section-title">Hobbies</h3>  
-              <p>My hobby is drawing, a lot of works that I have made paintings or drawings, then when people see the paint they always say to sell them, but I think all the paintings that i have only to display in my room not for sale.</p>
-              <p>I think paint just to fill my boredom when I have spare time, it is very entertaining and fills my spare time.</p> 
+        </div>
+        <div id="popTwo">
+            <img src="nad dan gled fix.jpeg" alt="nanad dan gledys">
+            <p>Be wiser than you were before!
+                Happy birthday, Bestie and also My Orkam! Thank you for being the best of the best. I love you, Nanad!</p>
+            <div class="tombol-terimakasih" onclick="btnTwo()">
+                Thankuu
             </div>
-            
+        </div>
+        <div id="popThree">
+            <p>Remember that God never leaves you, He will always be there for you! as last year He was with you, so He will also be with you in your 21th. </p>
+            <div class="tombol-terimakasih" onclick="btnThree()">
+                Thankuu
             </div>
-            <div class="section-wrapper clearfix">
-              <h3 class="section-title">Skills</h3>
-                <ul>
-                <li class="skill-percentage">HTML</li>
-                <li class="skill-percentage">CSS </li>
-                <li class="skill-percentage">Javascript</li>
-                </ul>
-            
-          </div>
-            
-        </section>
-        
-        <div class="clearfix"></div>
-      </div>
-      
-      <script  src="cv.js"></script>
+        </div>
+        <div class="box"></div>
+        <h3>HAPPY BIRTHDAY<br></h3>
+        <H2>NADIA TRAVIA NAHUMARURY</H2>
+        <div class="button">
+            <div class="btn" onclick="btnOne()">Box Misteri 1</div>
+            <div class="btn" onclick="btnTwo()">Box Misteri 2</div>
+            <div class="btn" onclick="btnThree()">Box Misteri 3</div>
+        </div>
+        <h3 style="text-align: center; margin-bottom: 15px;">THIS SONG IS FOR YOU</h3>
+        <div class="player">
+            <div class="imgBx">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UE7UuxY_h7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;Copyright 2021 by Victory</p>
+    </footer>
+    <script src="javascript.js"></script> 
 </body>
-
 </html>
